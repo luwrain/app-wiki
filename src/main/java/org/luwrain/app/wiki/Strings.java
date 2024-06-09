@@ -16,6 +16,9 @@
 
 package org.luwrain.app.wiki;
 
+import org.luwrain.core.annotations.*;
+
+@ResourceStrings(name = "luwrain.wiki", resource = "strings.properties", langs = { "en", "ru" })
 public interface Strings
 {
     static final String NAME = "luwrain.wiki";
